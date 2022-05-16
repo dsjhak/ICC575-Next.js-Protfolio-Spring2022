@@ -1,0 +1,7 @@
+@use '../sass/abstracts/vars';
+
+.header {
+    background-color: vars.$color_primary;
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+}
