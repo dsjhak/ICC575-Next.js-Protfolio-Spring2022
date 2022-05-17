@@ -3,6 +3,7 @@ import Heading from '../../components/Heading'
 import Image from 'next/image'
 import Layout from '../../components/Layout'
 import Paragraph from '../../components/Paragraph'
+import Link from 'next/link'
 
 
 const ProjectThreePage = () => {
@@ -17,6 +18,9 @@ const ProjectThreePage = () => {
             />
             <Heading level="1">Project 3 Title</Heading>
             <Paragraph>This is description about my project</Paragraph>
+            <Link href="/">
+                <a>Back to home</a>
+            </Link>
         </Container>
     </Layout>
 }

@@ -1,6 +1,6 @@
 import styles from './main.module.scss'
 
-const Main = ({children}) => {
-    return <mian className={styles.main}>{children}</mian>
+const Main = ({ children }) => {
+    return <main className={styles.main}>{children}</main>
 }
 export default Main
